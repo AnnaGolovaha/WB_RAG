@@ -1,0 +1,13 @@
+knowledge_base_path: data/knowledge_base.xlsx
+qa_pairs_path: data/QA_pairs.xlsx
+
+# Retrievers
+faiss_top_k: 5
+bm25_top_k: 5
+
+embedding_model_name: intfloat/multilingual-e5-small
+
+reranker_model_name: BAAI/bge-reranker-v2-m3
+compressor_top_n: 3
+
+# generator_model_name: IlyaGusev/rugpt_large_turbo_instructed
